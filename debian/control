@@ -1,0 +1,12 @@
+Source: ros-indigo-astra-launch
+Section: misc
+Priority: extra
+Maintainer: Tim Liu <liuhua@orbbec.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-astra-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-astra-camera, ros-indigo-depth-image-proc, ros-indigo-image-proc, ros-indigo-nodelet, ros-indigo-rgbd-launch, ros-indigo-tf
+Description: Drivers for Orbbec Astra Devices.
